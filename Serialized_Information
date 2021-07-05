@@ -1,0 +1,75 @@
+** all serialized objects/info **
+
+<Organizer>
+name: a, id: a, pw: a
+
+
+<Attendee>
+name: Shanna, id: b, pw: b
+- TEDxToronto 2020
+- friend list: []
+
+name: Kevin, id: c, pw: c
+- TEDxToronto 2020
+- Career Workshop for Biochemical Engineering
+- friend list: []
+
+name: Roy, id: d, pw: d
+- Career Workshop for Biochemical Engineering
+- friend list: [c]
+
+name: Lance, id: e, pw: e
+- friend list: []
+
+
+<Speaker>
+name: Asif, id: Asif, pw: Asif
+- TEDxToronto 2020
+- Career Workshop for Biochemical Engineering
+
+name: Jonathan, id: Jonathan, pw: Jonathan
+- Career Workshop for Biochemical Engineering
+
+
+<Event>
+TEDxToronto 2020
+- Room 1
+- 2020-12-30 11:00
+- Organizer: a/ Speaker: [Asif]/ Attendees: [b, c]
+
+Career Workshop for Biochemical Engineering
+- Room 2
+- 2020-12-12 13:00
+- Organizer: a/ Speaker: [Jonathan, Asif]/ Attendees: [c, d]
+
+2020 Ain't Cancelled Series I
+- Room 1
+- 2020-12-30 10:00
+- Organizer: a/ Speaker: [ ]/ Attendees: [ ]
+
+
+<Room>
+Room1 (cap: 2 attendees)
+- {2020-12:30 11:00: "TEDxToronto 2020", 2020-12-30 10:00: "2020 Ain't Cancelled Series I"}
+
+Room 2 (cap: 2 attendees)
+- {2020-12-12 13:00: "Career Workshop for Biochemical Engineering"
+
+
+
+<Message>
+
+Event message 1 (all attendees in TEDxToronto 2020, Career Workshop for Biochemical Engineering)
+- "This is the first event message! - from organizer [a]"
+
+Private message 1 (chat between b and c)
+- {b: "Hey, c! It is b :)", c: "Whatsup Shanna!"}
+
+
+
+<Unscheduled events>
+- Gentle Yoga for Terrible Times
+- Baking with Our Buds- Open House Online!
+- 2020 Ain't Cancelled Series II
+- 2020 Ain't Cancelled Series III
+- Future of Food and Agriculture
